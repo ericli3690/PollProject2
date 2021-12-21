@@ -8,11 +8,15 @@
 
 # Hello, developer.
 # Use the below toggle to enable administrative permissions.
-ADMIN_MODE_ON = True
+ADMIN_MODE_ON = False
 # Or, go to questions.py in the navigation hierarchy to customize the questions posed to the user.
 # Note: changes to questions will not take effect until data is cleared via admin action 3
 
 ###############################################
+
+# todo
+# set title of poll
+# admin clear all and quit action
 
 print("IMPORTING LIBRARIES...")
 
@@ -30,7 +34,7 @@ from collections import Counter
 def main():
   # clear console, print greeting
   system("clear")
-  color_print("SWC Coding Club Poll - Eric Li", "cyan")
+  color_print("POLL - ERIC LI", "cyan")
 
   if not db.get("DATA"):
     # if ran for the first time or data was just cleared, create database

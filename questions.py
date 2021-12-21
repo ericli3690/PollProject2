@@ -1,6 +1,6 @@
 ####################################################
 
-# POLL PROJECT QUESTION CUSTOMIZATION
+# POLL QUESTION CUSTOMIZATION
 # ERIC LI
 
 ####################################################
@@ -22,7 +22,7 @@
 
 QUESTIONS = [
   {
-    "prompt": "What's your name?",
+    "prompt": "Coding Club Poll\nWhat's your name?",
     "type": "writ"
   },
   {
